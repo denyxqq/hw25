@@ -1,0 +1,33 @@
+.container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+
+
+.box{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.box:nth-child(1){z-index: 3;
+ top:50px;
+ right: 50px;
+    background-color: lightcoral;
+}
+
+.box:nth-child(2){z-index: 2;
+    background-color: lightseagreen;
+}
+
+.box:nth-child(3){z-index: 1;
+   bottom: 0px; 
+    right: 0px;
+    background-color: greenyellow;
+}
